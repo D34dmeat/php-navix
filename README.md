@@ -1,6 +1,6 @@
-navix-php
+navix-php rss branch
 =========
-
+An attemt at creating a automated rss feed based on Navi-x Playlist utilizing hitolaus
 PHP classes for parsing Navi-X playlists and NIPL.
 
 ## PLX Parser
@@ -8,7 +8,7 @@ PHP classes for parsing Navi-X playlists and NIPL.
     <?php
     require_once('plx_parser.php');
     
-    $p = new PlxParser("http://navix.turner3d.net/playlist/week.plx");
+    $p = new PlxParser("http://www.navixtreme.com/playlist/week.plx");
 
     $e = $p->next();
     while(isset($e)) {
